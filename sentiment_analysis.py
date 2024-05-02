@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sentiment_analysis(texts: List[str]) -> List[str]:
+def sentiment_analysis(texts: List[str], model: str = "gpt-3.5-turbo") -> List[str]:
     """
     Analyze the sentiment of given texts and return a list of sentiment labels.
 

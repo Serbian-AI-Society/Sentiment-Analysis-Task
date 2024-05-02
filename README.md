@@ -35,7 +35,7 @@ export OPENAI_API_KEY='your_api_key_here'
 ## Example Usage
 Below is an example of how you might call the `sentiment_analysis` function:
 ```python
-texts = ["I love my new phone!", "This is the worst movie I have ever seen.", "I think it's okay, nothing special."]
+texts = ["Volim svoj novi telefon!", "Ovo je najgori film koji sam ikada gledao.", "Mislim da je u redu, ništa posebno."]
 print(sentiment_analysis(texts))
 ```
 

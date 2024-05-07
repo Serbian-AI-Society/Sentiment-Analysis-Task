@@ -2,10 +2,21 @@
 Acceptance Task for SAIS Hackathon 2024
 
 ## Overview
-This project serves as an acceptance task for the SAIS Hackathon and is designed to test your skills in natural language processing (NLP) by building a sentiment analysis model using the OpenAI API. The goal is to accurately classify texts into three categories: **positive**, **negative**, or **neutral**.
+This project serves as an acceptance task for the SAIS Hackathon and is 
+designed to test your skills in natural language processing (NLP) by 
+building a sentiment analysis model using the OpenAI API. The goal is 
+to accurately classify texts into three categories: **positive**, 
+**negative**, or **neutral**.
 
 ## Objective
-Your task is to develop a Python function that takes a list of text strings and returns a list of sentiment labels corresponding to each text string. The sentiments are classified as either 'positive', 'negative', or 'neutral'.
+Your task is to implement a Python program that reads a file with the list 
+of text strings (separated by newline character) and returns a list of 
+sentiment labels corresponding to each text string. The sentiments are 
+classified as either 'positive', 'negative', or 'neutral'.
+
+In order to solve this task, you will need to integrate the OpenAI API 
+and invoke one of their chat-based models to perform sentiment analysis on 
+the input text strings.
 
 ## Requirements
 - Python 3.8 or later
@@ -23,24 +34,28 @@ export OPENAI_API_KEY='your_api_key_here'
 ```
 
 ## Implementation Guide
-1. **Modify the function**: You will find a skeleton function in `sentiment_analysis.py`. Replace the placeholder logic with a call to the OpenAI API to perform sentiment analysis.
+1. **Modify the function**: You will find a skeleton function in `sentiment_analysis.py`. Implement 
+the logic which calls the OpenAI API to perform sentiment analysis.
 
 2. **API Integration**:
-- Use the [OpenAI Documentation](https://platform.openai.com/docs/introduction) to develop a sentiment analysis function.
+- Use the 
+[OpenAI Documentation](https://platform.openai.com/docs/introduction) to 
+invoke OpenAI's chat-based model to get best-fitting sentiment for provided 
+input text.
 
 3. **Testing**: Test your function with different types of texts to ensure it accurately identifies the sentiment.
 
 4. **Error Handling**: Implement error handling to manage potential issues during API calls.
 
 ## Example Usage
-Below is an example of how you might call the `sentiment_analysis` function:
-```python
-texts = ["Volim svoj novi telefon!", "Ovo je najgori film koji sam ikada gledao.", "Mislim da je u redu, ništa posebno."]
-print(sentiment_analysis(texts))
+Below is an example of how you might run the program:
+```bash
+python main.py texts.txt
 ```
 
 ## Submission Guidelines
-- Complete the implementation of the sentiment_analysis function in the sentiment_analysis.py file.
+- Complete the implementation of the _sentiment_analysis_ function in the 
+_sentiment_analysis.py_ file.
 - Ensure your code is well-commented and follows the specified guidelines.
 - Push your final changes to your repository before the deadline.
 

@@ -1,5 +1,5 @@
 # Sentiment Analysis Task
-Acceptance Task for SAIS Hackathon 2024
+Acceptance Task for the **SAIS Hackathon 2024**
 
 ## Overview
 This project serves as an acceptance task for the SAIS Hackathon and is 

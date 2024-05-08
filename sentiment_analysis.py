@@ -26,6 +26,10 @@ def sentiment_analysis(
 
     for line in texts:
         line = line.strip()
-        # TODO Put your code here (logic + OpenAI API call)
+        # TODO: Put your code here (logic + OpenAI API call)
+
+        # TODO: Be free to apply "lower()" on the output
+        #  retrieved from the API.
+        # Example: "Positive".lower() -> "positive"
 
     return results

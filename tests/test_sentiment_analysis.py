@@ -3,7 +3,7 @@ import unittest
 from sentiment_analysis import sentiment_analysis
 
 
-class TestAnalyzeSentimentReal(unittest.TestCase):
+class TestAnalyzeSentiment(unittest.TestCase):
     def test_response_type(self):
         """ Test that the sentiment analysis function returns a string. """
         texts = [

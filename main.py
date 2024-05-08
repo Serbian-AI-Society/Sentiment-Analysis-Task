@@ -28,7 +28,10 @@ if __name__ == "__main__":
         description="Perform sentiment analysis on text from a file."
     )
     parser.add_argument(
-        "file_path", type=str, help="Path to the file containing text."
+        "file_path",
+        type=str,
+        help="Path to the file containing text.",
+        default="data/texts.txt"
     )
     args = parser.parse_args()
 

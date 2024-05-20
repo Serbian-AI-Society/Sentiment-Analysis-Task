@@ -59,7 +59,7 @@ input text.
 ## Example Usage
 Below is an example of how you might run the program:
 ```bash
-python main.py texts.txt
+python main.py data/texts.txt
 ```
 
 ## Evaluation Criteria

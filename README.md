@@ -1,23 +1,21 @@
 # Sentiment Analysis Task
-Acceptance Task for the **SAIS Hackathon 2024**
 
-## Information
-- **Team/Participant name**:
-- **Email**:
-
-## Submission Guidelines ⚠️
-- [ ] Complete the implementation of the _sentiment_analysis_ function in the 
-_sentiment_analysis.py_ file.
-- [ ] Ensure your code is well-commented and follows the guidelines specified [below](#implementation-guide).
-- [ ] Commit your final changes to the **main** branch of your repository before the deadline.
-- [ ] Fill the team/participant information in the **Information** header. 
-
-## Overview
 This project serves as an acceptance task for the SAIS Hackathon and is 
 designed to test your skills in natural language processing (NLP) by 
 building a sentiment analysis model using the OpenAI API. The goal is 
 to accurately classify texts into three categories: **positive**, 
 **negative**, or **neutral**.
+
+## Submission Guidelines ⚠️
+- [ ] Fill the team/participant information in the **Information** header.
+- [ ] Complete the implementation of the _sentiment_analysis_ function in the 
+_sentiment_analysis.py_ file.
+- [ ] Ensure your code is well-commented and follows the guidelines specified [below](#implementation-guide).
+- [ ] Commit your final changes to the **main** branch of your repository before the deadline.
+
+## Information
+- **Team/Participant name**: <YOUR_TEAM/PARTICIPANT_NAME>
+- **Email**: <YOUR_EMAIL>
 
 ## Objective
 Your task is to implement a Python program that reads a file with the list 

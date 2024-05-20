@@ -2,8 +2,8 @@
 Acceptance Task for the **SAIS Hackathon 2024**
 
 ## Information
-- Team/Participant name:
-- Email:
+- **Team/Participant name**:
+- **Email**:
 
 ## Submission Guidelines ⚠️
 - [ ] Complete the implementation of the _sentiment_analysis_ function in the 

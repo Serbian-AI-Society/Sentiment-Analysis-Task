@@ -40,7 +40,7 @@ the logic which calls the OpenAI API to perform sentiment analysis.
 2. **API Integration**:
 - Use the 
 [OpenAI Documentation](https://platform.openai.com/docs/introduction) to 
-invoke OpenAI's chat-based model to get best-fitting sentiment for provided 
+invoke OpenAI's chat-based model to get the best-fitting sentiment for provided 
 input text.
 
 3. **Testing**: Test your function with different types of texts to ensure it accurately identifies the sentiment.
@@ -57,7 +57,7 @@ python main.py texts.txt
 - Complete the implementation of the _sentiment_analysis_ function in the 
 _sentiment_analysis.py_ file.
 - Ensure your code is well-commented and follows the specified guidelines.
-- Push your final changes to your repository before the deadline.
+- Commit your final changes to the **main** branch of your repository before the deadline.
 
 ## Evaluation Criteria
 - Accuracy of sentiment classification

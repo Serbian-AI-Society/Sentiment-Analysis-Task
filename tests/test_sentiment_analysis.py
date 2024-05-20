@@ -1,3 +1,7 @@
+### This is a script added for your convenience to test your solution. 
+### You can run this with the command:
+### python -m unittest tests/test_sentiment_analysis.py
+
 import unittest
 
 from sentiment_analysis import sentiment_analysis
